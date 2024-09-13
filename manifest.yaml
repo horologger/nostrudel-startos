@@ -1,6 +1,6 @@
 id: nostrudel
 title: "noStrudel"
-version: 0.40.0.0
+version: 0.40.1.0
 release-notes: |
   - Add support for NIP-49 (ncryptsec)
   - Add wiki pages
