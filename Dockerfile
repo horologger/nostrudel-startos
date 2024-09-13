@@ -13,6 +13,7 @@ COPY ./nostrudel .
 # Build
 ENV VITE_COMMIT_HASH=""
 ENV VITE_APP_VERSION="Start9-OS"
+ENV NODE_OPTIONS="--max-old-space-size=4096"
 RUN yarn build
 
 FROM nginx:stable-alpine-slim
